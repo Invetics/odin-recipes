@@ -2,7 +2,8 @@
 .title,
 .subtitle,
 .return,
-.list {
+.list,
+.pagelinks {
     text-align: center;
     font-family:'Courier New', Courier, monospace;
     background-color: bisque;
@@ -25,4 +26,8 @@
     text-align: left;
     font-size: 25px;
     list-style:circle
+}
+
+.pagelinks {
+    list-style: none;
 }
