@@ -1,14 +1,24 @@
-.center,
-.title,
-.subtitle,
-.return,
-.list,
-.pagelinks,
-.button,
-.p {
+* {
+    padding: 0;
+    margin: 0;
     text-align: center;
-    font-family:'Courier New', Courier, monospace;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.center {
     background-color: bisque;
+}
+
+.hamburger {
+    background-color: brown;
+}
+
+.cake {
+    background-color:peru
+}
+
+.blueberry {
+    background-color:cornflowerblue
 }
 
 .title {
@@ -22,7 +32,7 @@
 
 .return {
     font-size: 40px;
-    background-color: white;
+    border: 2px double black;
 }
 
 .list {
@@ -33,10 +43,6 @@
 
 .pagelinks {
     list-style: none;
-}
-
-.button {
-    background-color: white;
 }
 
 .p {
